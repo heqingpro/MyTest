@@ -1,0 +1,5 @@
+1.随州党建app后台  http://192.168.18.42:18080/svn/develop/com/partyOffice/common/AppBranch/shuizhou/PartyMemeberBuilding
+2.大连投票系统后台 http://svn1.ipanel.cn:18080/svn/develop/info/partySupport_taian/大连/partySupport_taian
+3.无锡三务公开   http://192.168.18.42:18080/svn/develop/com/partyOffice/wuxi/PartyMemberBuildingBo_wx
+4.随州党建后台   http://192.168.18.42:18080/svn/develop/com/partyOffice/common/PartyMemberBuildingBo
+5.指纹机项目     http://192.168.18.42:18080/svn/develop/info/hikvision
