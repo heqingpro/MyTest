@@ -1,4 +1,5 @@
-﻿1、加最高权限
+﻿参考文档链接：https://blog.csdn.net/qq_30764991/article/details/80510261
+1、加最高权限
 
 chmod 775  文件名
 
@@ -6,5 +7,24 @@ chmod 775  文件名
 
 chmod +x   文件名
 
-3.查看进程
-ps -ef|grep java
+3.进程
+	查看进程：
+	ps -ef|grep java
+	杀死进程：
+	kill -9 进程号
+
+4.管道"|"
+将一个命令的输出用作另一个命令的输入：
+如：ls --help|more 分页查询帮助信息
+	ps --ef|grep java 
+5.&& 命令执行与控制
+  命令之间使用&&连接，实现逻辑与的功能。
+  只有在&&左边的命令返回真，右边的命令才会被执行
+6.网络通讯命令
+	ifconfig 显示或设置网络设备。
+		ifconfig 显示网络设备
+		ifconfig eth0 up 启用eth0网卡
+		ifconfig eth0 down 停用eth0网卡
+	ping
+	netstat 查看网络端口。
+		netstat -an|grep 3306 查询3306端口占用情况
